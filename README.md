@@ -2,6 +2,16 @@
 
 Creating a Classifier to guess the mental illness most experienced by people with a certain favourite genre.
 
+Creating a classifier that predicts the music platform used most by certain individuals.
+
+Hypothesising that if I know the ages of the users, I can guess what streaming platform they use.
+
+
+
+Labels: Streaming Platform
+
+1st Feature: Ages
+
 ### My Process
 
 - Created a virtual environment within created folder
@@ -9,5 +19,5 @@ Creating a Classifier to guess the mental illness most experienced by people wit
 - Created this README file, touch README.md, then opened in explorer to edit.
 - Install pandas and nltk libraries
 - open Jupyter Notebook
-- import libraries and read the csv data, while editing the csv file for ease of calling on the classifier page 
-- 
+- import libraries and read the csv data. I edited the titles in the csv file for ease of calling on the classifier page- using dot notation
+- Pulled out my first feature- Primary streaming service, then will pull out age too
